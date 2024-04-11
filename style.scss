@@ -80,7 +80,7 @@ body{
                 }
 
                 p{
-                    display: none;
+                    visibility: hidden;
                 }
 
             }
@@ -110,9 +110,9 @@ body{
                     height: 70%;
                     
                     p{
-                        transition-delay: 5s;
-                        transition-property: display;
-                        display: contents;
+                        transition-delay: 1s;
+                        transition-property: visibility;
+                        visibility: visible;
                         
                     }
     

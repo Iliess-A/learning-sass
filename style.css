@@ -55,7 +55,7 @@ body section .b_box .bot_box h1 {
   text-transform: uppercase;
 }
 body section .b_box .bot_box p {
-  display: none;
+  visibility: hidden;
 }
 body section .b_box:hover .uper_box {
   width: auto;
@@ -76,7 +76,7 @@ body section .b_box:hover .bot_box {
   height: 70%;
 }
 body section .b_box:hover .bot_box p {
-  transition-delay: 5s;
-  transition-property: display;
-  display: contents;
+  transition-delay: 1s;
+  transition-property: visibility;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
