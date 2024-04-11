@@ -4,6 +4,11 @@
 
 $_color:white;
 
+%display{
+    p{display: contents;}
+    
+}
+
 %surface{
     height: 100vh;
     width: 100vw;
@@ -35,10 +40,11 @@ body{
         @extend %centrer_item;
 
         .b_box{
+
             @extend %box;
             flex-direction: column;
-            width: 40vh ;
-            height: 50vw;
+            width: 30vw ;
+            height: 60vh;
             background-image: url(https://i.pinimg.com/564x/d2/27/b9/d227b95cb03ce081a15faeda5f46b19b.jpg);
             background-position: center;
 
@@ -58,7 +64,7 @@ body{
             }
 
             .t_box{
-
+                
                 align-self:flex-start;
                 background-color: orange;
             }
@@ -72,6 +78,7 @@ body{
                 h1{
                     text-transform: uppercase ;
                 }
+
                 p{
                     display: none;
                 }
@@ -79,7 +86,7 @@ body{
             }
             //----------------------------------------------------hover
             &:hover{
-
+                
                 .uper_box{
                     width: auto;
                     height: 30%;
@@ -87,8 +94,10 @@ body{
                     margin-top: 20px;
                     margin-right:20px ;
                     padding-bottom: 0;
+                    transition-duration: 1s;
     
                     .r_box{
+                        
                         border-radius: 50%;
                         background-color: red;
                         padding: 10px;
@@ -99,9 +108,12 @@ body{
                     
                     width: 100%;
                     height: 70%;
-
+                    
                     p{
-                        display:contents;
+                        transition-delay: 5s;
+                        transition-property: display;
+                        display: contents;
+                        
                     }
     
                 }

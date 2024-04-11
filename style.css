@@ -24,8 +24,8 @@ body {
 }
 body section .b_box {
   flex-direction: column;
-  width: 40vh;
-  height: 50vw;
+  width: 30vw;
+  height: 60vh;
   background-image: url(https://i.pinimg.com/564x/d2/27/b9/d227b95cb03ce081a15faeda5f46b19b.jpg);
   background-position: center;
 }
@@ -64,6 +64,7 @@ body section .b_box:hover .uper_box {
   margin-top: 20px;
   margin-right: 20px;
   padding-bottom: 0;
+  transition-duration: 1s;
 }
 body section .b_box:hover .uper_box .r_box {
   border-radius: 50%;
@@ -75,5 +76,7 @@ body section .b_box:hover .bot_box {
   height: 70%;
 }
 body section .b_box:hover .bot_box p {
+  transition-delay: 5s;
+  transition-property: display;
   display: contents;
 }/*# sourceMappingURL=style.css.map */
