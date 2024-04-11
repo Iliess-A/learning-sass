@@ -38,6 +38,7 @@ body section .b_box .uper_box {
   padding-bottom: 0;
 }
 body section .b_box .uper_box .r_box {
+  text-align: center;
   border-radius: 50%;
   background-color: red;
   padding: 10px;
